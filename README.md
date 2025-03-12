@@ -7,7 +7,7 @@ install react-router
 create browser router > routes > route =/ Body > route children
 create outlet in the body component
 create a footer
-
+create a login page
 
 
 

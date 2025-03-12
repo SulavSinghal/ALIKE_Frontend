@@ -13,7 +13,8 @@ CORS - intall cors in backend => add mmiddleware to with configuratopn: origin, 
 whenver you're making API call so pass axios => { withCredentials: true }
 install Redux ToolKit + react-redux -https://redux-toolkit.js.orgtutorials/quick-start in frontend file
 create configurestore => Provider => createSlice =>add reducer to store
-
+you shoould not be able to access other routes with login
+if token  not present redirect user to login page
 
 
 

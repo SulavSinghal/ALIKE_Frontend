@@ -1,6 +1,7 @@
 
 const Feed = () =>{
-    return <div>
-    </div>
+    return (<div>
+        <p>Feed</p>
+    </div>)
 };
 export default Feed;

@@ -16,7 +16,8 @@ create configurestore => Provider => createSlice =>add reducer to store
 you shoould not be able to access other routes with login
 if token  not present redirect user to login page
 logout feature
-
+get the feed and add the feed in the store
+build userCArd
 
 
 

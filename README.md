@@ -17,7 +17,10 @@ you shoould not be able to access other routes with login
 if token  not present redirect user to login page
 logout feature
 get the feed and add the feed in the store
-build userCArd
+build userCArd on feed
+edit profile feature
+show toast meesage on save of profile
+see all my connections
 
 
 

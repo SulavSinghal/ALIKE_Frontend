@@ -84,9 +84,9 @@ const [showToast, setShowToast] = useState(false);
     onChange={(e) => setGender(e.target.value)}
   >
     <option value="" disabled>Select Gender</option>
-    <option value="male">Male</option>
-    <option value="female">Female</option>
-    <option value="others">Others</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Others">Others</option>
   </select>
 </label>
 

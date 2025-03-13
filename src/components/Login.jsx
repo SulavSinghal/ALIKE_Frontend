@@ -8,7 +8,8 @@ import { baseUrl } from "../utils/constants";
 const Login = () => {
   
   const [emailId, setEmailId] = useState("sulavsinghal01@gmail.com");
-  const [password, setPassword] = useState("123"); 
+  const [password, setPassword] = useState("123");
+  const [error,setError] = useState(""); 
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -27,7 +28,8 @@ dispatch(addUser(res.data));
 return navigate("/");
   }catch(err)
   {
-    console.log(err);
+    setError(err?.response?.data || "Something went wrong!");
+    console.error(err);
   }
   };
   return (
@@ -92,16 +94,8 @@ return navigate("/");
                 onChange={(e)=>setPassword(e.target.value)}
               />
             </label>
-            {/* <p className="validator-hint hidden">
-              Must be more than 8 characters, including
-              <br />
-              At least one number
-              <br />
-              At least one lowercase letter
-              <br />
-              At least one uppercase letter
-            </p> */}
           </div>
+          <p className="text-red-500">{error}</p>
           <div className="card-actions justify-center my-2">
             <button className="btn btn-primary" onClick={handleLogin}>Login</button>
           </div>

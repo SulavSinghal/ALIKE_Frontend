@@ -15,7 +15,7 @@ install Redux ToolKit + react-redux -https://redux-toolkit.js.orgtutorials/quick
 create configurestore => Provider => createSlice =>add reducer to store
 you shoould not be able to access other routes with login
 if token  not present redirect user to login page
-
+logout feature
 
 
 

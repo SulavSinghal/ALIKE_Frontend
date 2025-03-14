@@ -20,9 +20,9 @@ get the feed and add the feed in the store
 build userCArd on feed
 edit profile feature
 show toast meesage on save of profile
-see all my connections
-
-
+new page-see all my connections
+new page - see all my connection requests
+feature - accept/reject connection requests
 
 
 

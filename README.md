@@ -9,7 +9,7 @@ create outlet in the body component
 create a footer
 create a login page
 install axios
-CORS - intall cors in backend => add mmiddleware to with configuratopn: origin, credentials: true
+CORS - intall cors in backend => add middleware to with configuration: origin, credentials: true
 whenver you're making API call so pass axios => { withCredentials: true }
 install Redux ToolKit + react-redux -https://redux-toolkit.js.orgtutorials/quick-start in frontend file
 create configurestore => Provider => createSlice =>add reducer to store

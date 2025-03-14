@@ -23,6 +23,7 @@ show toast meesage on save of profile
 new page-see all my connections
 new page - see all my connection requests
 feature - accept/reject connection requests
+ignore/interested feature built
 
 
 

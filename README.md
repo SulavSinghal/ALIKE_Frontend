@@ -1,35 +1,35 @@
-ALIKE FRONTEND
+ALIKE
 
-install tailwindCSS
-install daisyUI
-create a navbar.jsx in separate component file
-install react-router 
-create browser router > routes > route =/ Body > route children
-create outlet in the body component
-create a footer
-create a login page
-install axios
-CORS - intall cors in backend => add middleware to with configuration: origin, credentials: true
-whenver you're making API call so pass axios => { withCredentials: true }
-install Redux ToolKit + react-redux -https://redux-toolkit.js.orgtutorials/quick-start in frontend file
-create configurestore => Provider => createSlice =>add reducer to store
-you shoould not be able to access other routes with login
-if token  not present redirect user to login page
-logout feature
-get the feed and add the feed in the store
-build userCArd on feed
-edit profile feature
-show toast meesage on save of profile
-new page-see all my connections
-new page - see all my connection requests
-feature - accept/reject connection requests
-ignore/interested feature built
+🌟 Overview
 
+ALIKE is a social networking platform designed for developers to connect, interact, and collaborate. Users can sign up, edit their profiles, send and accept connection requests, and engage in real-time chat with their connections.
 
+🚀 Features
 
-Body
-    NavBar
-    Route=/ =>feed
-    Route=/login =>Login Page
-    Route=/connections => Connections
-    Route=/profile => Profile
+User Authentication: Secure login and signup using JWT tokens.
+
+Profile Management: Users can update their profile details.
+
+Connection Requests: Send, accept, or reject connection requests.
+
+Live Chat: Real-time messaging with connected developers using Socket.io.
+
+Developer Feed: Discover and connect with other developers.
+
+Fully Responsive UI: Built with Daisy UI for a sleek user experience.
+
+🛠️ Tech Stack
+
+Frontend: React.js, Redux, Daisy UI , Tailwind CSS
+
+Backend: Node.js, Express.js, MongoDB, Socket.io 
+
+Authentication: JWT (JSON Web Tokens)
+
+Testing: Postman
+
+Deployment: AWS EC2 instance with Nginx
+
+🌍 Live Demo
+
+Access the platform here: http://3.25.170.117
